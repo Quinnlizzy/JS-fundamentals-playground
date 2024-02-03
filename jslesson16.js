@@ -9,3 +9,5 @@ console.log(username)
 
 let message = "You have three new notifications"
 console.log(message)
+
+console.log(message + ", " + username + "!")
