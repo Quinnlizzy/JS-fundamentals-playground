@@ -1,2 +1,3 @@
 let count = 5 + 7
-console.log(count)
+let count2 = 5 / 7
+console.log(count, count2)
