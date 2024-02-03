@@ -1,3 +1,8 @@
-let count = 5 + 7
+let count3 = 5 + 7
 let count2 = 5 / 7
-console.log(count, count2)
+
+let firstBatch = 74
+let secondBatch = 78
+
+let count = firstBatch + secondBatch
+console.log(count)
