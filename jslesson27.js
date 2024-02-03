@@ -7,17 +7,17 @@ let sum = document.getElementById("sum-el")
 
 function add (){
    let add = num1 + num2
-   sum.textContent = add 
+   sum.textContent = add
 }
 
 function subtract(){
        let subtract = num1 - num2
-   sum.textContent = subtract 
+   sum.textContent = subtract
 }
 
 function multiply (){
        let multiply = num1 * num2
-   sum.textContent = multiply 
+   sum.textContent = multiply
 }
 
 function divide (){
