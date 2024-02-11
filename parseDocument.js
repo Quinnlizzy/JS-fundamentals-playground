@@ -67,6 +67,18 @@ function parseDocument(document)
     let sixLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{6}\b/g).length
     let sevenLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{7}\b/g).length
     let eightLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{8}\b/g).length
+
+//     let wordCounts = {};
+// let words = documentWithoutLineOne.match(/\b[a-zA-Z]+\b/g);
+
+// words.forEach(word => {
+//     let length = word.length;
+//     if(wordCounts[length]) {
+//         wordCounts[length]++;
+//     } else {
+//         wordCounts[length] = 1;
+//     }
+// });
     
     //report formation
     var report= "Number of Lines: " + numLines + "\n";
@@ -91,4 +103,36 @@ function parseDocument(document)
         report += "Number of eight letter words: " + eightLetterWords + "\n";
         
     return report;
+}
+
+
+
+
+
+//more readable/maintainable/testable code
+
+function countWords(document) {
+    return document.match(/\b[a-zA-Z]+\b/g).length;
+}
+
+function countMonetaryValues(document) {
+    let costings = document.match(/[£$€]/g);
+    return costings ? costings.length : 0;
+}
+
+function countWordsByLength(document, length) {
+    let words = document.match(new RegExp(`\\b[a-zA-Z]{${length}}\\b`, 'g'));
+    return words ? words.length : 0;
+}
+
+function parseDocument(documentWithoutLineOne) {
+    let numWords = countWords(documentWithoutLineOne);
+    let numCostings = countMonetaryValues(documentWithoutLineOne);
+    
+    let wordCounts = {};
+    for (let i = 1; i <= 8; i++) {
+        wordCounts[i] = countWordsByLength(documentWithoutLineOne, i);
+    }
+
+//etc...
 }
