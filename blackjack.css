@@ -1,12 +1,10 @@
-/* Complete the CSS styling according to the provided design */
-
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: url("../images/table.png");
-    color: white;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
     background-size: cover;
     font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 h1 {
@@ -17,6 +15,8 @@ h1 {
     font-style: italic;
 }
 
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
 button {
     color: #016f32;
     width: 150px;
@@ -26,4 +26,6 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
