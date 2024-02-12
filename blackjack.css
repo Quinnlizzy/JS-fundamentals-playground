@@ -11,9 +11,8 @@ body {
 
 h1 {
     color: goldenrod;
-    text-align: center
 }
 
 #message-el {
-    text-align: center;
+    font-style: italic;
 }
