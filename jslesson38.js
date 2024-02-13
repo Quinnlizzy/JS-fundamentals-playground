@@ -5,7 +5,7 @@
 
 let per = ["Per Harald Borgen", 35, true]
 
-let cards = [7, 4]
+// Remove the duplicate declaration of the 'cards' variable
 cards.push(6)
 //console.log(cards)
 
