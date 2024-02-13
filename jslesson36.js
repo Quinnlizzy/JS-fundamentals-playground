@@ -7,7 +7,7 @@ let message = ""
 // 1. Declare a variable called message and assign its value to an empty string
 
 // 2. Reassign the message variable to the string we're logging out
-if (sum <= 20) {
+if (sum < 21) {
     let message = "Do you want to draw a new card? 🙂"
     console.log(message)
 } else if (sum === 21) {
