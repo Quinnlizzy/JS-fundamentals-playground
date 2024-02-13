@@ -18,7 +18,7 @@ function renderGame() {
     // 2. Refer to the cards array when rendering out the cards
     cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
     sumEl.textContent = "Sum: " + sum
-    if (sum <= 20) {
+    if (sum < 21) {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
         message = "You've got Blackjack!"
