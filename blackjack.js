@@ -1,4 +1,4 @@
-// 2. Use getRandomCard() to set the values of firstCard and secondCard
+
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
 let cards = [firstCard, secondCard]
