@@ -1,0 +1,1 @@
+//make on click wrk for all the buttons
