@@ -1,6 +1,9 @@
+function saveLead() {
+    console.log("Button clicked from onclick attribute")
+}
+
 let inputBtn = document.getElementById("input-btn")
 
-
-function saveLead() {
-    console.log("Button clicked!")
-}
+inputBtn.addEventListener("click", function() {
+    console.log("Button clicked from addEventListener")
+})
