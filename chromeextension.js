@@ -1,4 +1,4 @@
-let inputBtn = document.getElementById("input-btn");
+const inputBtn = document.getElementById("input-btn");
 let myLeads = [];
 const inputEl = document.getElementById("input-el");
 
