@@ -79,7 +79,7 @@ function parseDocument(document)
 //         wordCounts[length] = 1;
 //     }
 // });
-    
+
     //report formation
     var report= "Number of Lines: " + numLines + "\n";
         report += "Number of Characters(total): " + numCharacters + "\n";
@@ -101,7 +101,6 @@ function parseDocument(document)
         report += "Number of six letter words: " + sixLetterWords + "\n";
         report += "Number of seven letter words: " + sevenLetterWords + "\n";
         report += "Number of eight letter words: " + eightLetterWords + "\n";
-        
     return report;
 }
 
