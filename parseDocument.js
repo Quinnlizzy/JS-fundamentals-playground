@@ -127,7 +127,6 @@ function countWordsByLength(document, length) {
 function parseDocument(documentWithoutLineOne) {
     let numWords = countWords(documentWithoutLineOne);
     let numCostings = countMonetaryValues(documentWithoutLineOne);
-    
     let wordCounts = {};
     for (let i = 1; i <= 8; i++) {
         wordCounts[i] = countWordsByLength(documentWithoutLineOne, i);
