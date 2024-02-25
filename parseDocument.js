@@ -39,14 +39,14 @@ function parseDocument(document)
     
     //number of special characters
     let numSpec = documentWithoutLineOne.match(/[^\w\s]/g).length;
-    
+
     //number of questions
     let numQuestionMarks = documentWithoutLineOne.match(/\?/g);
     if (numQuestionMarks !== null) {
         return numQuestionMarks.length;
     };
     let numQuestion = numQuestionMarks;
-    
+
     //number of words (total)
     let words = documentWithoutLineOne.split(/\s+/);
     let numWords = words.length;
