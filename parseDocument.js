@@ -131,6 +131,6 @@ function parseDocument(documentWithoutLineOne) {
     for (let i = 1; i <= 8; i++) {
         wordCounts[i] = countWordsByLength(documentWithoutLineOne, i);
     }
-
+//hj
 //etc...
 }
