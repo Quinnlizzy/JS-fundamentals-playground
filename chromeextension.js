@@ -15,13 +15,13 @@ function renderLeads() {
         // Refactor the code below to use a template string
         listItems += `
             <li>
-                <a target='_blank' href='${myLeads[i]}'>
+                <a target="_blank" href="${myLeads[i]}">
                     ${myLeads[i]}
                 </a>
             </li>
         `
     }
-    ulEl.innerHTML = listItems  
+    ulEl.innerHTML = listItems
 }
 
 
@@ -30,7 +30,6 @@ function renderLeads() {
 // alt
 // for (let i = 0; i < myLeads.length; i++) {
 //     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-    
 //     //alt method:
 //     // create element
 //     // set text content
