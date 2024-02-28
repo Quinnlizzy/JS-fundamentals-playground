@@ -24,7 +24,7 @@ ulEl.innerHTML = listItems;
 
 
 
-// // Let's try a different method!
+// alt
 // for (let i = 0; i < myLeads.length; i++) {
 //     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
     
