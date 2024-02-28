@@ -15,10 +15,9 @@ function renderLeads() {
         // Refactor the code below to use a template string
         listItems += `
         <li>
-        <a target='_blank' href=' ${myLeads[i]} '>
-        ${myLeads[i]}
-        </a>
-        </li>`
+        <a target='_blank' href=' ${myLeads[i]} '>${myLeads[i]}</a>
+        </li>
+        `
     }
     ulEl.innerHTML = listItems  
 }
