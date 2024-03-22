@@ -26,6 +26,25 @@ function renderLeads() {
 
 
 
+// localStorage.setItem("myName", "Per Harald Borgen")
+
+let name = localStorage.getItem("myName")
+console.log(name)
+
+// localStorage.clear()
+
+
+
+// 1. Save a key-value pair in localStorage
+// 2. Refresh the page. Get the value and log it to the console
+// 3. Clear localStorage
+
+// HINTS:
+// localStorage.setItem(key, value)
+// localStorage.getItem(key)
+// localStorage.clear()
+// PS: both key and value need to be strings
+
 
 // alt
 // for (let i = 0; i < myLeads.length; i++) {
