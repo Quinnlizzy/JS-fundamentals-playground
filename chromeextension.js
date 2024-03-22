@@ -33,13 +33,6 @@ function renderLeads() {
 
 
 
-// localStorage.setItem("myName", "Per Harald Borgen")
-
-// let name = localStorage.getItem("myName")
-// console.log(name)
-
-// localStorage.clear()
-
 
 
 // 1. Save a key-value pair in localStorage
@@ -64,3 +57,11 @@ function renderLeads() {
 //     // li.textContent = myLeads[i];
 //     // ulEl.appendChild(li)
 // }
+
+// localStorage.setItem("myName", "Per Harald Borgen")
+
+// let name = localStorage.getItem("myName")
+// console.log(name)
+
+// localStorage.clear()
+
