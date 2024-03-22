@@ -38,8 +38,8 @@ function renderLeads() {
 
 // localStorage.setItem("myName", "Per Harald Borgen")
 
-let name = localStorage.getItem("myName")
-console.log(name)
+// let name = localStorage.getItem("myName")
+// console.log(name)
 
 // localStorage.clear()
 
