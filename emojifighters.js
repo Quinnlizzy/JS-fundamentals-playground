@@ -10,6 +10,5 @@ fightButton.addEventListener("click", function() {
     console.log(fighters[fighter1]);
     console.log(fighters[fighter2]);
     
-    // emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" <div>.
     stageEl.textContent = fighters[fighter1] + " vs " + fighters[fighter2];
     })
