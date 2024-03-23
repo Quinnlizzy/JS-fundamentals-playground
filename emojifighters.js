@@ -4,8 +4,6 @@ let stageEl = document.getElementById("stage")
 let fightButton = document.getElementById("fightButton")
 
 fightButton.addEventListener("click", function() {
-    // Challenge:
-    // When the user clicks on the "Pick Fighters" button, pick two random 
     let fighter1 = Math.floor(Math.random() * 16) + 1;
     
     let fighter2 = Math.floor(Math.random() * 16) + 1;
